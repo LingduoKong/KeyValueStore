@@ -7,7 +7,7 @@ import java.util.Collections;
 
 public class ControllerTest {
 
-    private static Controller controller;
+    static Controller controller;
 
     @Before
     public void before() {

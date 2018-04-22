@@ -6,8 +6,7 @@ import org.apache.thrift.server.TSimpleServer;
 
 import apis.thrift.keyValueStore.*;
 
-public class App {
-
+public class KVStoreServer {
     private static void StartServer(KeyValueStore.Processor<Controller> processor) {
         try {
             TServerTransport serverTransport = new TServerSocket(9090);
