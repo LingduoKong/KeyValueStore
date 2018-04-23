@@ -1,3 +1,3 @@
 # KeyValueStore
 
-A in memmory database support querying values by version(timestamp) 
+A in-memmory database supports querying values by version(timestamp) 
